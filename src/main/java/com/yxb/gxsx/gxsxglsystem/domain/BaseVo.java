@@ -8,6 +8,7 @@ import lombok.ToString;
 /**
  * @author YinXuBai
  * @date 2022/1/29
+ * @description 基类
  */
 @Data
 @AllArgsConstructor
