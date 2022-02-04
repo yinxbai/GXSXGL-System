@@ -1,0 +1,20 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mariadb://127.0.0.1:3306/gxsx?characterEncoding=utf-8&useSSL=false&useTimezone=true&serverTimezone=GMT
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+    type-aliases-package: com\yxb\gxsx\gxsxglsystem\domain
+
+#showSql
+logging:
+  level:
+    com:
+      example:
+        mapper : debug
