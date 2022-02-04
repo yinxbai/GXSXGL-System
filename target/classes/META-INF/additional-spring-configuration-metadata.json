@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "mybatis.mapper-locations.type-aliases-package",
+      "type": "java.lang.String",
+      "description": "Description for mybatis.mapper-locations.type-aliases-package."
+  }
+] }
