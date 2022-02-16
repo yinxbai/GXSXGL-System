@@ -2,8 +2,8 @@ package com.yxb.gxsx.entity;
 
 import java.time.LocalDate;
 import java.io.Serializable;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+
+import lombok.*;
 import lombok.experimental.Accessors;
 
 /**
@@ -14,9 +14,11 @@ import lombok.experimental.Accessors;
  * @author YinXuBai
  * @since 2022-02-12
  */
+@EqualsAndHashCode(callSuper = true)
 @Data
-@EqualsAndHashCode(callSuper = false)
-@Accessors(chain = true)
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
 public class Student extends BaseEntity implements Serializable {
 
     private static final long serialVersionUID=1L;
